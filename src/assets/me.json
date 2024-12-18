@@ -1,0 +1,15 @@
+{
+    "nombre": "Samuel",
+    "apellido": "Lara",
+    "profesión": "estudiante",
+    "info": "Estudiante encariñado con la programación y la tecnología ",
+    "grados": [
+
+    {"centro": "JuanXXIIIcchana", "grado": "Bachillerato tecnologico"} , 
+    {"centro":"Hermenegildo Lanz", "grado":"Tecnico superior en desarrollo web"} 
+    ]
+
+
+
+
+}
