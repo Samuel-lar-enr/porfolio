@@ -1,0 +1,83 @@
+html {
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+section {
+
+max-width: 900px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.Hero {
+    
+    display: flex;
+    padding: 20px;
+    gap: 32px;
+    background-color: brown;
+    color: rgb(134, 245, 245);
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    border-radius: 40px;
+
+}
+
+.nombre {
+
+font-size: 60px;
+margin-bottom: 20px;
+}
+
+.profesion {
+
+font-size: 35px;
+font-style: bold;
+}
+
+.bio {
+
+font-size: 21px;
+
+}
+
+.principio{
+
+    padding: 10px;
+}
+
+.experiencia {
+
+    padding: 10px;
+    border: 2px  black;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    background-color: bisque;
+}
+
+.empresa {
+
+    font-weight:  bold;
+    font-size: 20px;
+}
+
+.habilidades {
+
+    padding: 8px;
+    background-color: rgb(245, 157, 74);
+    width: fit-content;
+}
+.habilidades p{
+
+    margin: 0px;
+    width: fit-content;
+    margin: 0px;
+}
+
+.envoltura-habilidades {
+
+display: flex;
+gap: 3px;
+}

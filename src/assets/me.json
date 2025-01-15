@@ -1,24 +1,28 @@
 {
     "nombre": "Samuel Lara",
-    "profesión": "estudiante de GCFS DAW",
+    "profesión": "Estudiante de GCFS DAW",
     "bio": "Estudiante encariñado con la programación y la tecnología ",
 
     "grados": [
 
     {"centro": "JuanXXIIIcchana", "grado": "Bachillerato tecnologico"} , 
-    {"centro":"Hermenegildo Lanz", "grado":"Tecnico superior en desarrollo web"},
+    {"centro":"Hermenegildo Lanz", "grado":"Tecnico superior en desarrollo web"}
 
     
     ],
 
     "experiencia": [
 
-        {"nombre": " "},
-        {"descripción": " "},
-        {"fecha": " "}
+        {"nombre": "Ejemplo experiencia ",
+        "descripción": "Ejemplo experiencia Ejemplo experiencia ",
+        "fecha": "Ejemplo "},
+
+        {"nombre": "Ejemplo experiencia ",
+        "descripción": "Ejemplo experiencia Ejemplo experiencia ",
+        "fecha": "Ejemplo "}
     ],
 
-    "habilidades": ["cooperativo,", "empatico"]
+    "habilidades": ["cooperativo", "empatico"]
 
 
 
