@@ -1,9 +1,24 @@
-# Mi proyecto
+---
+title: "Mi proyecto1"
+description: "Creacion pag web"
+url: "porfolio"
+---
 
-lorem ipsum
+
+
+
+# Portafolio
 
 ## Introducción
+Creación de un porfolio personal
 
-Creación de un porfolio en una pagina web
+## Contenido
 
-## contenido 
+### Experiencias
+
+
+### Habilidades
+
+
+### Información
+
