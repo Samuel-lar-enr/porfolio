@@ -1,8 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import '../assets/me.json'
-import Header from '../components/header.astro';
-import Footer from '../components/footer.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 const {default: meData} = await import ('../assets/me.json')
 const projects = await Astro.glob<any>('../pages/projects/*.md')
@@ -23,15 +23,17 @@ const projects = await Astro.glob<any>('../pages/projects/*.md')
 
 <section id="proyectos">
     <h2>Proyectos</h2>
-    
+    <div class= "envoltura-proyectos">
     {projects.map((project)=> (
         <a href={project.url} class="enlace-proyecto">
-        <article class="Proyecto" >
+        <article class="proyectos" >
             <h3>{project.frontmatter.title}</h3>
             <p>{project.frontmatter.description}</p>
         </article>
         </a>
+	
     ))}
+	</div>
 </section>
 
 

@@ -2,6 +2,10 @@ html {
     
     font-family: 'Times New Roman', Times, serif;
 }
+body {
+    color: grey ;
+    background-color:rgb(255, 230, 230);
+}
 
 
 section {
@@ -27,19 +31,38 @@ margin-left: auto;
 }
 
 .enlace-proyecto {
-color: chocolate 
+ color: chocolate ;
+ padding-right: 10px;
+ width: fit-content;
+ padding: 8px;
+ background-color: rgb(165, 240, 211);
+ border-radius: 40px
 
+}
+
+.proyectos h3{
+
+    margin: 3px;
+    text-align: center;
+    
+}
+
+.envoltura-proyectos {
+
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    text-align: justify;
+    
 }
 
 .proyecto {
     padding: 5px;
-    background-color: rgb(20, 9, 9) !important;
-
-
+    background-color: rgb(85, 36, 36) ;
 }
 
 .proyecto:hover{
-background-color: rgb(20, 9, 9) !important;
+background-color: rgb(94, 39, 39) !important;
 
 }
 
@@ -96,6 +119,6 @@ font-size: 21px;
 
 .envoltura-habilidades {
 
-display: flex;
-gap: 3px;
+    display: flex;
+    gap: 3px;
 }

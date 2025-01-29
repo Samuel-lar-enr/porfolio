@@ -5,12 +5,12 @@ import Linkedin from "./icons/Linkedin.astro";
 
 
 ---
-<footer />
+<footer >
     <nav>
         <ul>
                 <li><a href=""></a></li>
-                <li><a href=""><Linkedin/a></li>
-                <li><a href="https://github.com/Samuel-lar-enr"><Github/a></li>
+                <li class="lnk-background"><a class="lnk" href=""><Linkedin/a></li>
+                <li><a class="git" href="https://github.com/Samuel-lar-enr"><Github/a></li>
                 <li><a href=""></a></li>
 
         </ul>
@@ -20,24 +20,38 @@ import Linkedin from "./icons/Linkedin.astro";
     footer {
         margin-top: 84px;
         width: 100%;
-        background-color: black ;
+        background-color: rgb(49, 23, 23) ;
         color: white ;
         display: flex;
         flex-direction: column ;
         align-items: center ;
+        
     }
     ul{
         width: fit-content;
        padding: 16px;
        display:  flex;
        flex-direction: row;
-       grid: 16px;
+       gap: 16px;
         align-items: center;
+        
     }
 
     li{
         list-style-type: none;
     }
-
+    
+    .git{
+        color: rgb(132, 0, 255);
+    }
+    .lnk{
+        color: white ;
+        
+    }
+    .lnk-background{
+        background-color: blue;
+        background-origin: padding-box;
+        border-radius: 25%;
+    }
 
 </style>
